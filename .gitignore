@@ -1,18 +1,29 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+build/
 
-# Other files and folders
-.settings/
+# Dependency directories
+node_modules/
+jspm_packages/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# TypeScript v1 declaration files
+typings/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+
+# dotenv environment variables file
+.env
+.env.test
+
+
+# Nuxt.js build / generate output
+.nuxt
+dist
